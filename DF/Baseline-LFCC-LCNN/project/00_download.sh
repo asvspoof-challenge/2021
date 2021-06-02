@@ -14,10 +14,15 @@ then
     wget -q ${SRC}
     if [ -f pre_trained_DF_LFCC-LCNN.zip ];
     then
-  unzip pre_trained_DF_LFCC-LCNN.zip
-    else
-  SRC=https://www.dropbox.com/sh/gf3zp00qvdp3row/AABg4OUDKFvFonI-HmIzT5qIa/temp/asvspoof2021/df_trained_network.pt
-  wget -q ${SRC}
+	unzip pre_trained_DF_LFCC-LCNN.zip
+	mv pre_trained_DF_LFCC-LCNN.pt df_trained_network.pt
+	rm pre_trained_DF_LFCC-LCNN.zip
+    fi
+
+    if [ ! -f df_trained_network.pt ];
+    then
+	SRC=https://www.dropbox.com/sh/gf3zp00qvdp3row/AABg4OUDKFvFonI-HmIzT5qIa/temp/asvspoof2021/df_trained_network.pt
+	wget -q ${SRC}
     fi
     mv df_trained_network.pt baseline_DF/__pretrained/trained_network.pt
 fi
@@ -28,10 +33,15 @@ then
     wget -q ${SRC}
     if [ -f pre_trained_LA_LFCC-LCNN.zip ];
     then
-  unzip pre_trained_LA_LFCC-LCNN.zip
-    else
-  SRC=https://www.dropbox.com/sh/gf3zp00qvdp3row/AADWOs9cmLBzWuRPbh5m10YVa/temp/asvspoof2021/la_trained_network.pt
-  wget -q ${SRC}
+	unzip pre_trained_LA_LFCC-LCNN.zip
+	mv pre_trained_LA_LFCC-LCNN.pt la_trained_network.pt
+	rm pre_trained_LA_LFCC-LCNN.zip
+    fi 
+    
+    if [ ! -f la_trained_network.pt ];
+    then
+	SRC=https://www.dropbox.com/sh/gf3zp00qvdp3row/AADWOs9cmLBzWuRPbh5m10YVa/temp/asvspoof2021/la_trained_network.pt
+	wget -q ${SRC}
     fi
     mv la_trained_network.pt baseline_LA/__pretrained/trained_network.pt
 fi
@@ -43,7 +53,12 @@ then
    if [ -f pre_trained_PA_LFCC-LCNN.zip ];
    then
        unzip pre_trained_PA_LFCC-LCNN.zip
-   else
+       mv pre_trained_PA_LFCC-LCNN.pt pa_trained_network.pt
+       rm pre_trained_PA_LFCC-LCNN.zip
+   fi
+
+    if [ ! -f pa_trained_network.pt ];
+    then
        SRC=https://www.dropbox.com/sh/gf3zp00qvdp3row/AACOBr0ymqsMA0rKctMxkKaxa/temp/asvspoof2021/pa_trained_network.pt
        wget -q ${SRC}
    fi

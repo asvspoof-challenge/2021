@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% CQCC-GMM ASVspoof 2021 baseline
+% CQCC-GMM ASVspoof 2021 baseline 
 %
 % Logical Access (LA) task
 %
@@ -51,6 +51,10 @@ if use_preTrained_models
     d = 16;             % number of uniform samples in the first octave
     cf = 19;            % number of cepstral coefficients excluding 0'th coefficient
     
+    if ~exist('preTrained','dir')
+        mkdir('preTrained');
+    end    
+    
     url = 'http://www.asvspoof.org/asvspoof2021/pre_trained_LA_CQCC-GMM.zip';
     outfilename = websave('preTrained/pre_trained_LA_CQCC-GMM.zip',url);
     unzip(outfilename,'preTrained');
@@ -100,7 +104,7 @@ else
     disp('Extracting features for BONA FIDE training data...');
     genuineFeatureCell = cell(size(bonafideIdx));
     parfor i=1:length(bonafideIdx)
-        filePath = fullfile(pathToDatabase21,['ASVspoof2019_LA' '_train/flac'],[filelist{bonafideIdx(i)} '.flac']);
+        filePath = fullfile(pathToASVspoof19,'LA','ASVspoof2019_LA_train/flac',[filelist{bonafideIdx(i)} '.flac']);
         [x,fs] = audioread(filePath);
         
         % featrue extraction
@@ -112,7 +116,7 @@ else
     disp('Extracting features for SPOOF training data...');
     spoofFeatureCell = cell(size(spoofIdx));
     parfor i=1:length(spoofIdx)
-        filePath = fullfile(pathToDatabase21,['ASVspoof2019_LA' '_train/flac'],[filelist{spoofIdx(i)} '.flac'])
+        filePath = fullfile(pathToASVspoof19,'LA','ASVspoof2019_LA_train/flac',[filelist{bonafideIdx(i)} '.flac']);
         [x,fs] = audioread(filePath);
         
         % featrue extraction
@@ -150,7 +154,7 @@ filelist = protocol{1};
 scores_cm = zeros(size(filelist));
 disp('Computing scores for eval trials...');
 parfor i=1:length(filelist)
-    filePath = fullfile(pathToDatabase21,['ASVspoof2021_LA' '_eval/flac'],[filelist{i} '.flac']);
+    filePath = fullfile(pathToDatabase21,'ASVspoof2021_LA_eval/flac',[filelist{i} '.flac']);
     [x,fs] = audioread(filePath);
     
     % featrue extraction

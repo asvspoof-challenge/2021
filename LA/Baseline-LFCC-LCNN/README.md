@@ -38,7 +38,7 @@ $: bash 01_wrapper_eval.sh
 ```
 
 
-* Train a new model using the toy database train-dev set 
+* Train a new model using the toy database train-dev set (a tiny part of the ASVspoof2019 LA task)
 
 ```
 $: cd project
