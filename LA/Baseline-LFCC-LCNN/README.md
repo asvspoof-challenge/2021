@@ -27,7 +27,7 @@ $: conda activate pytorch-asvspoof2021
 
 ## Usage
 
-This repository comes with a toy database and pre-trained baseline models. 
+This repository comes with pre-trained baseline models and a toy database for demonstration (a tiny part of the ASVspoof2019 LA task).
 
 * Evaluate testset trials in toy database using pre-trained model 
 
@@ -38,13 +38,17 @@ $: bash 01_wrapper_eval.sh
 ```
 
 
-* Train a new model using the toy database train-dev set (a tiny part of the ASVspoof2019 LA task)
+* Train a new model using the toy database train-dev set
 
 ```
 $: cd project
 $: bash 00_download.sh
 $: bash 02_toy_example.sh
 ```
+
+Pre-trained models for LA and DF taskes were trained using ASVspoof2019 LA training set.
+
+Pre-trained model for PA task was trained using ASVspoof2019 PA training set.
 
 After playing with the toy dataset, you will be faimilar with the process to evaluate trials and train a new model.
 
@@ -61,7 +65,7 @@ Here are some details on the data format and project file structure:
 
 * Waveform: 16/32-bit PCM or 32-bit float WAV that can be read by [scipy.io.wavfile.read](https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.wavfile.read.html), or FLAC that can be read by [soundfile](https://pysoundfile.readthedocs.io/en/latest/)
 
-* Other data: binary, float-32bit, litten endian ([numpy dtype <f4](https://numpy.org/doc/1.18/reference/generated/numpy.dtype.html)). The data can be read in python by:
+* Other data (although not used in this project): binary, float-32bit, litten endian ([numpy dtype <f4](https://numpy.org/doc/1.18/reference/generated/numpy.dtype.html)). The data can be read in python by:
 ```
 # for a data of shape [N, M]
 >>> f = open(filepath,'rb')
@@ -69,7 +73,8 @@ Here are some details on the data format and project file structure:
 >>> data = np.fromfile(f,dtype=datatype)
 >>> f.close()
 ```
-I assume data should be stored in [c_continuous format](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.flags.html) (row-major). 
+
+* I assume that data should be stored in [c_continuous format](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.flags.html) (row-major). 
 There are helper functions in ./core_scripts/data_io/io_tools.py to read and write binary data:
 ```
 # create a float32 data array

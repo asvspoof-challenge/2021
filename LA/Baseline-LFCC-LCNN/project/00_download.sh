@@ -15,7 +15,7 @@ then
     if [ -f pre_trained_DF_LFCC-LCNN.zip ];
     then
 	unzip pre_trained_DF_LFCC-LCNN.zip
-	mv pre_trained_DF_LFCC-LCNN.pt df_trained_network.pt
+	#mv pre_trained_DF_LFCC-LCNN.pt df_trained_network.pt
 	rm pre_trained_DF_LFCC-LCNN.zip
     fi
 
@@ -34,7 +34,7 @@ then
     if [ -f pre_trained_LA_LFCC-LCNN.zip ];
     then
 	unzip pre_trained_LA_LFCC-LCNN.zip
-	mv pre_trained_LA_LFCC-LCNN.pt la_trained_network.pt
+	#mv pre_trained_LA_LFCC-LCNN.pt la_trained_network.pt
 	rm pre_trained_LA_LFCC-LCNN.zip
     fi 
     
@@ -53,7 +53,7 @@ then
    if [ -f pre_trained_PA_LFCC-LCNN.zip ];
    then
        unzip pre_trained_PA_LFCC-LCNN.zip
-       mv pre_trained_PA_LFCC-LCNN.pt pa_trained_network.pt
+       #mv pre_trained_PA_LFCC-LCNN.pt pa_trained_network.pt
        rm pre_trained_PA_LFCC-LCNN.zip
    fi
 

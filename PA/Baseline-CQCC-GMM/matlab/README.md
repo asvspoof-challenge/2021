@@ -36,5 +36,5 @@ CQCC features use 12 bins per octave. Re-sampling is applied with a sampling per
 Results are shown in the ASVspoof 2021 Evaluation Plan.
 
 ## Contact information
-For any query, please contact ( info at asvspoof.org )
+For any query, please contact organisers at lists.asvspoof.org
 

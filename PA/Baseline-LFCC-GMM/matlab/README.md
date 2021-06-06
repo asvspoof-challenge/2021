@@ -35,4 +35,4 @@ LFCC features use a 30 ms window with a 15 ms shift, 1024-point Fourier transfor
 Results are shown in the ASVspoof 2021 Evaluation Plan.
 
 ## Contact information
-For any query, please contact ( info at asvspoof.org )
+For any query, please contact organisers at lists.asvspoof.org
