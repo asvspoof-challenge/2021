@@ -54,7 +54,7 @@ python main.py \
        --trained-model ${trained_model} \
        --module-config config_auto > ${log_name}.txt 2>&1
 
-cat ${log_name}.txt | grep "Output," | awk -F ',' '{print $2$4}' > ${log_name}_score.txt
+cat ${log_name}.txt | grep "Output," | awk '{print $2" "$4}' | sed 's:,::g' > ${log_name}_score.txt
 
 echo -e "Process log has been written to $PWD/${log_name}.txt"
 echo -e "Score has been written to $PWD/${log_name}_score.txt"
