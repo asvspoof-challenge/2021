@@ -9,7 +9,8 @@ The code in this repository serves as one of the baselines of the ASVspoof 2021 
 ## Installation
 First, clone the repository locally, create and activate a conda environment, and install the requirements :
 ```
-$ git clone https://url/to/final/repo.git
+$ git clone https://github.com/asvspoof-challenge/2021.git
+$ cd 2021/DF/Baseline-RawNet2/
 $ conda create --name rawnet_anti_spoofing python=3.6.10
 $ conda activate rawnet_anti_spoofing
 $ conda install pytorch=1.4.0 -c pytorch
