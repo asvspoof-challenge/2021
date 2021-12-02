@@ -6,8 +6,8 @@ Usage:
 $: python PATH_TO_SCORE_FILE PATH_TO_GROUDTRUTH_DIR phase
  
  -PATH_TO_SCORE_FILE: path to the score file 
- -PATH_TO_GROUNDTRUTH_DIR: path to the directory that has ASV and CM protocols.
-    Please use ./reference_data_1
+ -PATH_TO_GROUNDTRUTH_DIR: path to the directory that has the CM protocol and ASV scores.
+    Please follow README, download the key files, and use ./keys
  -phase: either progress, eval, hidden_track_1, or hidden_track_2
 
 Example:

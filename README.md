@@ -17,3 +17,12 @@ Reference code is provided for the following systems:
 
 * Baseline-RawNet2 (PyTorch) <br/> End-to-End DNN classifier
 
+The following directory contains the scripts to compute EERs and other metrics:
+
+* eval-package
+
+Note that the key files are moved to https://www.asvspoof.org/.
+They will be downloaded by a script in the eval-package automatically.
+Please check README there.
+
+If automatical downloading fails, please manually download the key files from https://www.asvspoof.org/. 

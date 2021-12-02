@@ -1,19 +1,17 @@
 #!/usr/bin/env python
 """
-Script to compute pooled EER and min tDCF for ASVspoof2021. 
+Script to compute pooled EER and min tDCF for ASVspoof2021 LA. 
 
 Usage:
 $: python PATH_TO_SCORE_FILE PATH_TO_GROUDTRUTH_DIR phase
  
  -PATH_TO_SCORE_FILE: path to the score file 
- -PATH_TO_GROUNDTRUTH_DIR: path to the directory that has ASV and CM meta labels
+ -PATH_TO_GROUNDTRUTH_DIR: path to the directory that has tje CM protocol and ASV score.
+    Please follow README, download the key files, and use ./keys
  -phase: either progress, eval, or hidden_track
 
 Example:
 $: python evaluate.py score.txt ./keys eval
-
-Dependency:
-Numpy, pandas
 """
 
 import sys, os.path
