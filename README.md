@@ -34,7 +34,22 @@ You can also manually download the **full set of keys and meta-labels**:
 
 Please consider citing the following papers:
 
-* ASVspoof 2021 summary paper (submitted to IEEE/ACM Trans ASLP, Arxiv link will be available soon)
+* ASVspoof 2021 summary paper on [Arxiv](https://arxiv.org/abs/2210.02437) (submitted to IEEE/ACM Trans. ASLP)
+
+```bash
+Xuechen Liu, Xin Wang, Md Sahidullah, Jose Patino, Héctor Delgado, Tomi Kinnunen, Massimiliano Todisco, Junichi Yamagishi, Nicholas Evans, Andreas Nautsch, and Kong Aik Lee. ASVspoof 2021: Towards Spoofed and Deepfake Speech Detection in the Wild. arXiv. doi:10.48550/ARXIV.2210.02437. 2022.
+
+
+@misc{https://doi.org/10.48550/arxiv.2210.02437,
+author = {Liu, Xuechen and Wang, Xin and Sahidullah, Md and Patino, Jose and Delgado, H{\'{e}}ctor and Kinnunen, Tomi and Todisco, Massimiliano and Yamagishi, Junichi and Evans, Nicholas and Nautsch, Andreas and Lee, Kong Aik},
+doi = {10.48550/ARXIV.2210.02437},
+mendeley-groups = {self-arxiv},
+publisher = {arXiv},
+title = {{ASVspoof 2021: Towards Spoofed and Deepfake Speech Detection in the Wild}},
+url = {https://arxiv.org/abs/2210.02437},
+year = {2022}
+}
+```
 
 
 * ASVspoof 2021 evaluation plan [evaluation plan](https://www.asvspoof.org/asvspoof2021/asvspoof2021_evaluation_plan.pdf)
