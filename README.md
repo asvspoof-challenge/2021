@@ -20,7 +20,7 @@ Four baseline CMs are available for LA, PA, and DF tracks
 * a set of Python scripts that computes pooled and decomposed min t-DCFs and EERs,
 * [a notebook](./eval-package/ASVspoof2021_eval_notebook.ipynb) that computes min t-DCFs and EERs in an interactive way.
 
-Please check [eval-package/README](./eval-package/README.md).
+Please check [eval-package/README](./eval-package/README.md) for more details on key and meta label files.
 
 You can also manually download the **full set of keys and meta-labels**:
 
