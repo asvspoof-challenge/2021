@@ -6,7 +6,7 @@ URLLINKS=(https://www.asvspoof.org/asvspoof2021/LA-keys-full.tar.gz
 	  https://www.asvspoof.org/asvspoof2021/PA-keys-full.tar.gz
           https://www.asvspoof.org/asvspoof2021/DF-keys-full.tar.gz)
 
-MD5SUMVALS=(037592a0515971bbd0fa3bff2bad4abc
+MD5SUMVALS=(f052cc2ed276745afa3b5198665d3b26
 	    a639ea472cf4fb564a62fbc7383c24cf
 	    dabbc5628de4fcef53036c99ac7ab93a)
 

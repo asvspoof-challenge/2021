@@ -26,9 +26,11 @@ You can also manually download the **full set of keys and meta-labels**:
 
 |    | Link | MD5 |
 |---|---|---|
-| LA  | https://www.asvspoof.org/asvspoof2021/LA-keys-full.tar.gz | 037592a0515971bbd0fa3bff2bad4abc  |
+| LA  | https://www.asvspoof.org/asvspoof2021/LA-keys-full.tar.gz | ~037592a0515971bbd0fa3bff2bad4abc~ f052cc2ed276745afa3b5198665d3b26 |
 | PA  | https://www.asvspoof.org/asvspoof2021/PA-keys-full.tar.gz | a639ea472cf4fb564a62fbc7383c24cf  |
 | DF  | https://www.asvspoof.org/asvspoof2021/DF-keys-full.tar.gz | dabbc5628de4fcef53036c99ac7ab93a  |
+
+(LA package is updated to remove an unnecessary file called `trial_list.txt`, 2023/04/13)
 
 ## Reference
 
@@ -36,7 +38,7 @@ Please consider citing the following papers:
 
 * ASVspoof 2021 summary paper on [Arxiv](https://arxiv.org/abs/2210.02437) (submitted to IEEE/ACM Trans. ASLP)
 
-```bash
+```bibtex
 Xuechen Liu, Xin Wang, Md Sahidullah, Jose Patino, Héctor Delgado, Tomi Kinnunen, Massimiliano Todisco, Junichi Yamagishi, Nicholas Evans, Andreas Nautsch, and Kong Aik Lee. ASVspoof 2021: Towards Spoofed and Deepfake Speech Detection in the Wild. arXiv. doi:10.48550/ARXIV.2210.02437. 2022.
 
 
@@ -54,7 +56,7 @@ year = {2022}
 
 * ASVspoof 2021 evaluation plan [evaluation plan](https://www.asvspoof.org/asvspoof2021/asvspoof2021_evaluation_plan.pdf)
 
-```bash
+```bibtex
 Héctor Delgado, Nicholas Evans, Tomi Kinnunen, Kong Aik Lee, Xuechen Liu, Andreas Nautsch, Jose Patino, Md Sahidullah, Massimiliano Todisco, Xin Wang, and others. ASVspoof 2021: Automatic Speaker Verification Spoofing and Countermeasures Challenge Evaluation Plan. ArXiv Preprint ArXiv:2109.00535. 2021.
 
 @article{delgado2021asvspoof,
@@ -68,7 +70,7 @@ year = {2021}
 * ASVspoof 2021 workshop summary paper on [ISCA archive](https://www.isca-speech.org/archive/asvspoof_2021/yamagishi21_asvspoof.html)
 
 
-```bash
+```bibtex
 Junichi Yamagishi, Xin Wang, Massimiliano Todisco, Md Sahidullah, Jose Patino, Andreas Nautsch, Xuechen Liu, Kong Aik Lee, Tomi Kinnunen, Nicholas Evans, and Héctor Delgado. ASVspoof 2021: Accelerating Progress in Spoofed and Deepfake Speech Detection. In Proc. ASVspoof Challenge Workshop, 47–54. doi:10.21437/ASVSPOOF.2021-8. 2021.
 
 @inproceedings{yamagishi21_asvspoof,
@@ -84,7 +86,7 @@ year = {2021}
 * Paper on t-DCF published on [IEEE/ACM TASLP](https://doi.org/10.1109/TASLP.2020.3009494)
 
 
-```bash
+```bibtex
 Tomi Kinnunen, Hector Delgado, Nicholas Evans, Kong Aik Lee, Ville Vestman, Andreas Nautsch, Massimiliano Todisco, Xin Wang, Md Sahidullah, Junichi Yamagishi, and Douglas A Reynolds. Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification: Fundamentals. IEEE/ACM Transactions on Audio, Speech, and Language Processing 28. IEEE: 2195–2210. doi:10.1109/TASLP.2020.3009494. 2020.
 
 @article{kinnunen2020tandem,

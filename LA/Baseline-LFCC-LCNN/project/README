@@ -82,9 +82,9 @@ Files marked with '=' are generated after running 02_toy_example.sh.
 
 log_train.txt is self-explanable.
 
-log_eval_score.txt has four columns (see Note 2):
-  Output, File name, label, score
-  Output, LA_E_1066571, 1, 19.160793
+log_eval_score.txt has two columns (see Note 2):
+  File_name score
+  LA_E_1066571 19.160793
 
 
 Note
@@ -93,15 +93,11 @@ Note
 
 2. Output score has this following format:
 
-   Output, File name, label, score
-   Output, LA_E_8688127, 0, -0.011127
-
-   If label of the trial is given in the protocol file, the label will be: 
-     0, which denotes spoof
-     1, which denotes bona fide
-
-   If label of the trial is not given in the protocol file, the label will be:
-    -1, which means unknown (not provided)
+   File_name score
+   LA_E_1066571 19.160793
+   
+   The score is a scalar indicating how likely the trial is being bona fide (human voice).
+   A higher score means being more likely to be bona fide.
 
 3. Accordingly, the code assumes 0 and 1 as the target labels for spoof and bona fide
    trials, respectively. 

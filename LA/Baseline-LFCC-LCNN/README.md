@@ -57,9 +57,16 @@ More can be found in [./project/README](./project/README)
 On a Nvidia P100 card, scoring the LA, PA, and DF evaluation sets requires around 1, 4, and 4 hours, respectively. Thus, it is better to run the scripts as background jobs.
 
 
+
 ## Notes 
 
-Here are some details on the data format and project file structure:
+#### Q&A
+
+1. To use the pre-trained models and score your own dataset (see example in 01_wrapper_eval.sh), you don't need to provide a protocol file. Neither do you need to change the path to the protocol file in config.py. 
+
+2. The input waveform must be mono-channel. 
+
+3. If waveform is in WAV format, please change the line `input_exts = ['.flac']` to `input_exts = ['.wav']` in project/baseline_LA/config.py and project/baseline_LA/config_auto.py
 
 #### Data format
 

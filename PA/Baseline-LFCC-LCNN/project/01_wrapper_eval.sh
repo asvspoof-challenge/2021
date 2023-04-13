@@ -19,9 +19,7 @@
 # 
 # (See Doc of 02_eval_alternative.sh for more details)
 #
-# Note that this script doesn't require protocol.txt
-# Thus, the output score file will show the label for the trial
-# (0 for spoof, 1 for bona fide)
+# Note that we don't need a protocol or meta labels.
 # 
 ########################
 
