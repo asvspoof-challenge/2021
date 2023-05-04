@@ -43,13 +43,13 @@ Xuechen Liu, Xin Wang, Md Sahidullah, Jose Patino, Héctor Delgado, Tomi Kinnune
 
 
 @misc{https://doi.org/10.48550/arxiv.2210.02437,
-author = {Liu, Xuechen and Wang, Xin and Sahidullah, Md and Patino, Jose and Delgado, H{\'{e}}ctor and Kinnunen, Tomi and Todisco, Massimiliano and Yamagishi, Junichi and Evans, Nicholas and Nautsch, Andreas and Lee, Kong Aik},
-doi = {10.48550/ARXIV.2210.02437},
-mendeley-groups = {self-arxiv},
-publisher = {arXiv},
-title = {{ASVspoof 2021: Towards Spoofed and Deepfake Speech Detection in the Wild}},
-url = {https://arxiv.org/abs/2210.02437},
-year = {2022}
+  author = {Liu, Xuechen and Wang, Xin and Sahidullah, Md and Patino, Jose and Delgado, H{\'{e}}ctor and Kinnunen, Tomi and Todisco, Massimiliano and Yamagishi, Junichi and Evans, Nicholas and Nautsch, Andreas and Lee, Kong Aik},
+  doi = {10.48550/ARXIV.2210.02437},
+  mendeley-groups = {self-arxiv},
+  publisher = {arXiv},
+  title = {{ASVspoof 2021: Towards Spoofed and Deepfake Speech Detection in the Wild}},
+  url = {https://arxiv.org/abs/2210.02437},
+  year = {2022}
 }
 ```
 
@@ -60,10 +60,10 @@ year = {2022}
 Héctor Delgado, Nicholas Evans, Tomi Kinnunen, Kong Aik Lee, Xuechen Liu, Andreas Nautsch, Jose Patino, Md Sahidullah, Massimiliano Todisco, Xin Wang, and others. ASVspoof 2021: Automatic Speaker Verification Spoofing and Countermeasures Challenge Evaluation Plan. ArXiv Preprint ArXiv:2109.00535. 2021.
 
 @article{delgado2021asvspoof,
-author = {Delgado, H{\'{e}}ctor and Evans, Nicholas and Kinnunen, Tomi and Lee, Kong Aik and Liu, Xuechen and Nautsch, Andreas and Patino, Jose and Sahidullah, Md and Todisco, Massimiliano and Wang, Xin and Others},
-journal = {arXiv preprint arXiv:2109.00535},
-title = {{ASVspoof 2021: Automatic speaker verification spoofing and countermeasures challenge evaluation plan}},
-year = {2021}
+  author = {Delgado, H{\'{e}}ctor and Evans, Nicholas and Kinnunen, Tomi and Lee, Kong Aik and Liu, Xuechen and Nautsch, Andreas and Patino, Jose and Sahidullah, Md and Todisco, Massimiliano and Wang, Xin and Others},
+  journal = {arXiv preprint arXiv:2109.00535},
+  title = {{ASVspoof 2021: Automatic speaker verification spoofing and countermeasures challenge evaluation plan}},
+  year = {2021}
 }
 ```
 
@@ -74,12 +74,12 @@ year = {2021}
 Junichi Yamagishi, Xin Wang, Massimiliano Todisco, Md Sahidullah, Jose Patino, Andreas Nautsch, Xuechen Liu, Kong Aik Lee, Tomi Kinnunen, Nicholas Evans, and Héctor Delgado. ASVspoof 2021: Accelerating Progress in Spoofed and Deepfake Speech Detection. In Proc. ASVspoof Challenge Workshop, 47–54. doi:10.21437/ASVSPOOF.2021-8. 2021.
 
 @inproceedings{yamagishi21_asvspoof,
-author = {Yamagishi, Junichi and Wang, Xin and Todisco, Massimiliano and Sahidullah, Md and Patino, Jose and Nautsch, Andreas and Liu, Xuechen and Lee, Kong Aik and Kinnunen, Tomi and Evans, Nicholas and Delgado, H{\'{e}}ctor},
-booktitle = {Proc. ASVspoof Challenge workshop},
-doi = {10.21437/ASVSPOOF.2021-8},
-pages = {47--54},
-title = {{ASVspoof 2021: accelerating progress in spoofed and deepfake speech detection}},
-year = {2021}
+  author = {Yamagishi, Junichi and Wang, Xin and Todisco, Massimiliano and Sahidullah, Md and Patino, Jose and Nautsch, Andreas and Liu, Xuechen and Lee, Kong Aik and Kinnunen, Tomi and Evans, Nicholas and Delgado, H{\'{e}}ctor},
+  booktitle = {Proc. ASVspoof Challenge workshop},
+  doi = {10.21437/ASVSPOOF.2021-8},
+  pages = {47--54},
+  title = {{ASVspoof 2021: accelerating progress in spoofed and deepfake speech detection}},
+  year = {2021}
 }
 ```
 
@@ -90,15 +90,15 @@ year = {2021}
 Tomi Kinnunen, Hector Delgado, Nicholas Evans, Kong Aik Lee, Ville Vestman, Andreas Nautsch, Massimiliano Todisco, Xin Wang, Md Sahidullah, Junichi Yamagishi, and Douglas A Reynolds. Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification: Fundamentals. IEEE/ACM Transactions on Audio, Speech, and Language Processing 28. IEEE: 2195–2210. doi:10.1109/TASLP.2020.3009494. 2020.
 
 @article{kinnunen2020tandem,
-author = {Kinnunen, Tomi and Delgado, Hector and Evans, Nicholas and Lee, Kong Aik and Vestman, Ville and Nautsch, Andreas and Todisco, Massimiliano and Wang, Xin and Sahidullah, Md and Yamagishi, Junichi and Reynolds, Douglas A},
-doi = {10.1109/TASLP.2020.3009494},
-issn = {2329-9290},
-journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
-pages = {2195--2210},
-publisher = {IEEE},
-title = {{Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification: Fundamentals}},
-volume = {28},
-year = {2020}
+  author = {Kinnunen, Tomi and Delgado, Hector and Evans, Nicholas and Lee, Kong Aik and Vestman, Ville and Nautsch, Andreas and Todisco, Massimiliano and Wang, Xin and Sahidullah, Md and Yamagishi, Junichi and Reynolds, Douglas A},
+  doi = {10.1109/TASLP.2020.3009494},
+  issn = {2329-9290},
+  journal = {IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  pages = {2195--2210},
+  publisher = {IEEE},
+  title = {{Tandem Assessment of Spoofing Countermeasures and Automatic Speaker Verification: Fundamentals}},
+  volume = {28},
+  year = {2020}
 }
 ```
 
